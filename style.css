@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+--Orange: hsl(25, 97%, 53%);
+--White: hsl(0, 0%, 100%);
+--Light-Grey: hsl(217, 12%, 63%);
+--Medium-Grey: hsl(216, 12%, 24%);
+--Dark-Blue: hsl(213, 19%, 18%);
+--Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+
+body{
+    font-family: 'Overpass', sans-serif;
+    background-color: var(--Very-Dark-Blue);
+    font-size: 15px;
+}
+
+/*------------------Primera tarjeta-----------------------*/
+.contenedor{
+    background-color: var(--Dark-Blue);
+    width: 310px;
+    height: 364px;
+    border-radius: 14px;
+    margin: 30px auto 20px;
+    padding: 15px;
+}
+
+.contenedor-icono{
+    background-color: var(--Medium-Grey);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    margin-bottom: 22px;
+}
+
+.contenedor-titulo{
+    color: var(--White);
+    margin-bottom: 22px;
+}
+
+.contenedor-parrafo{
+    color: var(--Light-Grey);
+    margin-bottom: 30px;
+    letter-spacing: -0.5px;
+}
+
+.contenedor-numeros{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-numeros-numero{
+    background-color: var(--Medium-Grey);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    margin-bottom: 22px;
+    color: var(--Light-Grey);
+    border: none;
+}
+
+.contenedor-boton{
+    width: 100%;
+    height: 44px;
+    border-radius: 50px;
+    border: none;
+    background-color: var(--Orange);
+    color: var(--White);
+    text-transform: uppercase;
+    font-weight: 700px;
+}
+
+/*------------------Segunda tarjeta-----------------------*/
+.thank-you{
+    background-color: var(--Dark-Blue);
+    width: 310px;
+    height: 364px;
+    border-radius: 14px;
+    margin: 20px auto 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thank-you-imagen{
+    width: 150px;
+    margin-bottom: 25px;
+}
+
+.resultado{
+    background-color: var(--Medium-Grey);
+    width: 190px;
+    height: 36px;
+    border-radius: 50px;
+    color: var(--Orange);
+    text-align: center;
+    padding: 8px 0;
+    margin-bottom: 30px;
+}
+
+.titulo{
+    color: var(--White);
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+.parrafo{
+    color: var(--Light-Grey);
+    letter-spacing: -0.5px;
+    text-align: center;
+}
